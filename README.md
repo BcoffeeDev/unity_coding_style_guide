@@ -4,6 +4,31 @@ This document outlines the coding style and conventions to be followed in Unity 
 
 ---
 
+### 🏷️ Versioning Convention
+
+Version numbers should follow the `A.B.C[-tag[.N]]` format:
+
+- `A` (Major): Breaking or structural changes.
+- `B` (Minor): Feature additions or behavioral adjustments.
+- `C` (Patch): Bug fixes and small improvements.
+- `-tag`: (Optional) Pre-release identifier such as `alpha`, `beta`, `rc`.
+- `.N`: (Optional) Incremental number for pre-release builds.
+
+Examples:
+- `1.0.0-alpha` – first alpha release
+- `1.0.0-beta.2` – second beta version
+- `2.0.0-rc.1` – first release candidate
+- `2.0.0` – stable production release
+
+Guidelines:
+- Increment `A` for breaking changes or major shifts in logic.
+- Increment `B` for new features or behavioral adjustments.
+- Increment `C` for small fixes or polish.
+- Use `-tag` identifiers for internal testing, QA, or experimental versions before official release.
+- All commits or deployments should be associated with a clear version tag.
+
+---
+
 ### 📝 Naming Conventions
 
 ```csharp
