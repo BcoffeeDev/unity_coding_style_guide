@@ -4,18 +4,6 @@ This document outlines the coding style and conventions to be followed in Unity 
 
 ---
 
-### 🧱 Project Structure
-
-```csharp
-// Organize scripts into folders by feature or module
-// Example: Assets/Scripts/Player, Assets/Scripts/UI
-
-// Use Editor, Runtime, and Tests subfolders to separate code contexts
-// Avoid cluttering the Assets folder
-
-// Use namespaces that mirror folder structure
-```
-
 ### 📝 Naming Conventions
 
 ```csharp
